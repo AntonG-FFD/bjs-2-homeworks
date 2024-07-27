@@ -2,7 +2,7 @@
 function solveEquation(a, b, c) {
   let arr = [];
  let d;
- d =  (b** - 4*a * c)     //b²-4*a*c 
+ d =  (b*b) - (4*a) * c;   
 
  if (d === 0) {
   arr[0] = (-b) / (2*a);
